@@ -1,3 +1,7 @@
+Now available as a docker-hub pull:
+
+    $ docker pull fishcorn/dvtb-container
+
 # dvtb-container
 This is a docker container that encapsulates all of the annoying steps to get yosinski/deep-visualization-toolbox working.
 
@@ -7,7 +11,7 @@ This container is mostly to get things working easily, and will let you run this
 
 Change Dockerfile so that the uid and gid match yours, then build this container with 
 
-    $ nvidia-docker build <name_or_tag> .
+    $ nvidia-docker build -t <name_or_tag> .
 
 Run this container with 
 
